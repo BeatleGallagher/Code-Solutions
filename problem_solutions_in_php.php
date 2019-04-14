@@ -19,7 +19,7 @@ function check_nums($num_one,$num_two){
 	} else {
 		echo "false";
 	}
-	//this is echo  only here so the answers are displayed on a new line on the page
+	//this echo only here so the answers are displayed on a new line on the page if I view it in my browser
 	echo "<br>";
 }
 check_nums(122,3);
@@ -37,7 +37,7 @@ function time_converted($num){
 
 	echo $hour . ":" . $minute;
 	//return ($hour . ":" . $minute);
-	//this is echo  only here so the answers are displayed on a new line on the page
+	//this echo only here so the answers are displayed on a new line on the page if I view it in my browser
 	echo "<br>";
 }
 time_converted(45);
@@ -60,6 +60,8 @@ function AlphabetSoup($str){
 
 	echo($str);
 	return $str;
+	//this echo only here so the answers are displayed on a new line on the page if I view it in my browser
+	echo "<br>";
 }
 AlphabetSoup("coderbyte");
 ?>
